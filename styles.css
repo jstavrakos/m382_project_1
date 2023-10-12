@@ -1,0 +1,56 @@
+/* Styles for the navigation bar */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    width: 100%
+}
+
+li.nav-item {
+    display: inline;
+    margin-right: 80px;
+}
+
+li.nav-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+li.nav-item a:hover {
+    color: gold;
+}
+
+footer {
+    background-color: black; /* Your footer background color */
+    color: white; /* Your footer text color */
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.header {
+    background-color: gold;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gold-text {
+    color: gold;
+}
